@@ -21,9 +21,6 @@ contract IBANValidator {
   function check(bytes raw) constant returns (bool) {
       bytes memory iban;
       bytes memory converted;
-      bytes memory chunks;
-      bytes memory chunk;
-      uint checksum;
       uint i = 0;
       uint j = 0;
       uint offset = 0;
