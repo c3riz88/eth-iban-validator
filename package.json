@@ -1,0 +1,25 @@
+{
+  "name": "eth-iban-validator",
+  "version": "0.0.1",
+  "description": "Smart contract for IBAN validation with check digits",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "Mickael Valmier",
+  "license": "ISC",
+  "keywords": [
+    "ethereum",
+    "eth",
+    "bank",
+    "iban",
+    "check",
+    "validation"
+  ],
+  "devDependencies": {
+    "truffle": "3.1.2",
+    "ethereumjs-testrpc": "3.0.3"
+  }
+}
