@@ -9,7 +9,7 @@
     "test": "truffle test"
   },
   "author": "Mickael Valmier",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
     "ethereum",
     "eth",
